@@ -1,7 +1,7 @@
 # fashion-store-project
 import os
 import platform
-import mysql.connector
+import mysql.connector 
 import datetime
 
 
