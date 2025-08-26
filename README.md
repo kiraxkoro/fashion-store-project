@@ -7,7 +7,7 @@ import datetime
 
 password=input('To Continue Enter Your Password:')
 
-try:
+try: 
     mydb=mysql.connector.connect(host="localhost",user="root",
                                  passwd=password,database="fashion")
     mycursor=mydb.cursor()
